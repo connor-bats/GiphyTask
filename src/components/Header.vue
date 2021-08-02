@@ -1,5 +1,5 @@
 <template>
-    <h1>Giphy<span>APP</span></h1>
+    <a href="index.html"><h1>Giphy<span>APP</span></h1></a>
 </template>
 
 
@@ -18,6 +18,14 @@ h1{
 h1 span{
     color: #743FDF;
     font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #000;
 }
 
 </style>
